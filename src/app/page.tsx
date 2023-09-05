@@ -21,7 +21,7 @@ export default function Home() {
                 </div>
                 <div className="headline">
                     <div className="title">
-                        <h1 className='text-3xl'>Nash's Portfolio</h1>
+                        <h1 className='text-3xl'>Nash Portfolio</h1>
                         <p className='text-xl'>here is my developing contents</p>
                     </div>
                 </div>
