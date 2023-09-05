@@ -21,21 +21,21 @@ export default function Home() {
                 </div>
                 <div className="headline">
                     <div className="title">
-                        <h1>Nash's Portfolio</h1>
-                        <p>here is my developing contents</p>
+                        <h1 className='text-3xl'>Nash's Portfolio</h1>
+                        <p className='text-xl'>here is my developing contents</p>
                     </div>
                 </div>
             </header>
             <div id="about" className="introduction">
-                <h1 className="who">Who are you?</h1>
+                <h1 className="who text-3xl py-4">Who are you?</h1>
                 <div className="appearance">
                     <Image src={ haru_pic } alt="nash's icon" />
                     <div className="explanation">
-                        <h1>なっしゅ/nash</h1>
+                        <h1 className='text-xl'>なっしゅ/nash</h1>
                         <p>
-                            鈴鹿高専(NITSC)の情報科r04期生<br />
-                            趣味 : 自作OS, 3DCG<br />
-                            特技 : ある？<br />
+                            鈴鹿高専(NITSC)の情報科2年生<br />
+                            趣味 : 開発, 筋トレ<br />
+                            特技 : <br />
                             好きな食べ物 : 柚子胡椒<br />
                             好きな言語 : C, NASM
                         </p>
@@ -113,8 +113,8 @@ export default function Home() {
                 </ul>
             </div>
             <div className="view-contents">
-                <h1 className="contents-title">SNS</h1>
-                <div className="container">
+                <h1 className="contents-title text-4xl">SNS</h1>
+                <div className="container items-center">
                     <div className="content glass">
                         <Image src={ twitter_pic } alt="twitter-logo" />
                         <div className="inner">
